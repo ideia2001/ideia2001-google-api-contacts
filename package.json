@@ -1,6 +1,6 @@
 {
   "name": "contactos-google-api",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "Node.js wrapper for the Google Contacts API.",
   "main": "index.js",
   "scripts": {
