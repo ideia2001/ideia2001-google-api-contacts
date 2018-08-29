@@ -19,7 +19,7 @@ Examples
 * Set user's credentials. If you provide a refresh_token and expiry_date (milliseconds since the Unix Epoch) and the access_token has expired, the access_token will be automatically refreshed and the request is replayed.
 
 ```javascript
-var GoogleContacts = require("g-contacts");
+var GoogleContacts = require("contactos-google-api");
 
 var googleContacts = new GoogleContacts(CLIENT_ID, CLIENT_SECRET);
 var credentials    = {
