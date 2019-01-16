@@ -1,5 +1,5 @@
 {
-  "name": "contactos-google-api",
+  "name": "ideia2001-google-api-contacts",
   "version": "1.0.11",
   "description": "Node.js wrapper for the Google Contacts API.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:fredyteheranto/contactos-google-api.git"
+    "url": "git@github.com:ideia2001/ideia2001-google-api-contacts.git"
   },
   "keywords": [
     "Google",
@@ -17,9 +17,10 @@
     "Google Contacts",
     "people api",
     "client",
-    "client library"
+    "client library",
+    "Ideia 2001"
   ],
-  "author": "FredyTeheranto <fredyteheran91@@gmail.com>",
+  "author": "Ideia 2001",
   "license": "MIT",
   "engines": {
     "node": ">=0.10.32"
