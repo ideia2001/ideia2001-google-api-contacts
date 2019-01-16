@@ -7,11 +7,6 @@ Requirements
 ============
 
 * [Node.js](http://nodejs.org/) -- v0.10.32 or newer
-
-Installation
-============
-  
-    npm install contactos-google-api
   
 Examples
 ========
@@ -19,7 +14,7 @@ Examples
 * Set user's credentials. If you provide a refresh_token and expiry_date (milliseconds since the Unix Epoch) and the access_token has expired, the access_token will be automatically refreshed and the request is replayed.
 
 ```javascript
-var GoogleContacts = require("contactos-google-api");
+var GoogleContacts = require("ideia2001-google-api-contacts");
 
 var googleContacts = new GoogleContacts(CLIENT_ID, CLIENT_SECRET);
 var credentials    = {
@@ -82,18 +77,11 @@ googleContacts.getContacts(options, function (error, data) {
 ```javascript
 var options = {
     name        : 'Ram',                    // Default is ''
-    display_name: 'Ram Singh',              // Default is ''
-    email       : 'ram@gmail.com',          
     is_primary  : true,                     // Default is true
-    contact_type: 'other',                  // Default is other.
     headers     :{                          // Optional
-        'GData-Version': '3.0',
+        'GData-Version': '',
         'User-Agent'   : 'SomeAgent'
-    },
-    extended_property: [                    // Optional
-        {name: 'custom_key_2', value: 'custom_value_2'},
-        {name: 'custom_key_2', value: 'custom_value_2'}
-    ]
+    }
 };
 googleContacts.addContact(options, function (error) {
     console.log("Error " + error);
